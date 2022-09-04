@@ -1,0 +1,11 @@
+@use 'base/variables' as v;
+
+.site-footer {
+    background-color: v.$fushia;
+    padding: 1rem;
+    p {
+        text-align: center;
+        color: v.$blanco;
+        font-size: 1.5rem;
+    }
+}
