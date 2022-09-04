@@ -14,6 +14,7 @@ body {
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
 
+    background-color: v.$stark;
     &.fijar-body {
         overflow: hidden;
     }

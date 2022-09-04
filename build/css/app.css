@@ -321,6 +321,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
+  background-color: #E7DFDD;
 }
 body.fijar-body {
   overflow: hidden;
@@ -557,7 +558,7 @@ img {
 }
 
 .galeria {
-  padding: 5rem 0;
+  padding: 5rem 0 0 0;
 }
 .galeria h3 {
   text-align: center;
@@ -623,4 +624,63 @@ img {
 }
 .btn-cerrar:hover {
   cursor: pointer;
+}
+
+.boletos {
+  padding: 5rem 0;
+}
+.boletos h3 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .boletos .contenedor-boletos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+
+.pase {
+  color: #000000;
+}
+.pase .nombre-pase {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #000000;
+  font-weight: 700;
+}
+.pase-header p, .pase-footer p {
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+.pase-header {
+  background-color: #A239CA;
+}
+.pase-header p {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+.pase-body {
+  background-color: #E7DFDD;
+}
+.pase-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pase-body ul li, .pase-body ul:nth-child(odd) {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(255, 0, 234);
+}
+.pase-footer {
+  background-color: #A239CA;
+}
+.pase-footer p {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 700;
 }
