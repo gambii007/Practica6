@@ -16,7 +16,7 @@ function navegacionFija() {
 
     window.addEventListener('scroll', function() {
 
-        if (sobreFestival.getBoundingClientRect().bottom < 10) { //Cuando el elemento toque la parte de arriba
+        if (sobreFestival.getBoundingClientRect().top < -50) { //Cuando el elemento toque la parte de arriba
             barra.classList.add('fijo');
             body.classList.add('body-scroll');
         }else{

@@ -1,4 +1,5 @@
 @use 'variables' as v;
+@use 'base/mixins' as m;
 
 html {
     font-size: 62.5%;
@@ -17,9 +18,6 @@ body {
     background-color: v.$stark;
     &.fijar-body {
         overflow: hidden;
-    }
-    &.body-scroll {
-        padding-top: 8.6rem;
     }
 }
 
